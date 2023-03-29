@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+.wrapper{
+    width: 450px;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 9px;
+
+}
+.upload-box{
+    background-color: #afafaf;
+}
+.disable{
+    display: none;
+    border: none;
+}
+.active{
+
+    height: 100%;
+    border: none;
+    width: 100%;
+}
+
+.wrapper .upload-box{
+    height: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px dashed #afafaf;
+    cursor: pointer;
+
+}
+
+
+
+.rows{
+    margin-top: 80px;
+    display: flex;
+    
+}
+
+.rows label{
+    font-size: 20px;
+    
+    
+}
+
+.rows input{
+    border: 1px solid black;
+    font-size: 20px;
+    text-align: end;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.row_checkbox{
+    margin-left: -50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-btn{
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blueviolet;
+    border: none;
+    height: 50px;
+    width:280px;
+    border-radius: 8px;
+}

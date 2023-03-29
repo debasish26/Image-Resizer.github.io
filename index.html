@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image REsizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="upload-box">
+            <input type="file" accept="image/*" class="inp" hidden>
+            <img src="svg/cloud-computing.png" alt="" width="40px" height="40px" srcset="">
+            <p>browse file to upload</p>
+        </div>
+        <div class="content">
+
+            <div class="rows">
+                <div class="coloumn_width">
+                    <label>width</label>
+                    <input type="number">
+                </div>
+                <div class="coloumn_height">
+                    <label>height</label>
+                    <input type="number">
+                </div>
+            </div>
+
+
+
+
+            <div class="row_checkbox">
+                <div class="coloumn_ratio">
+                    <input type="checkbox" id="ratio" checked class="rt">
+                    <label for="ratio">Lock Aspect Ratio</label>
+                </div>
+
+
+                <div class="coloumn_quality">
+                    <input type="checkbox" id="quality">
+                    <label for="quality">Reduce Quality</label>
+                </div>
+
+            </div>
+
+
+
+            
+
+        </div>
+        <div class="btn">
+            <button class="download-btn">Download Image</button>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
